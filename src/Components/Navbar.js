@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-// import logo from "../assets/images/1.jpg";
+
 
 
 export default function Navbar() {
@@ -24,33 +24,42 @@ export default function Navbar() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto me-auto mb-2 mb-lg-0">
-                            <li className="nav-item me-5">
-                                <Link className="nav-link active "  to="/user/Home">
+                        
+
+
+                            <li className="nav-item me-5 ms-5">
+                                <a className="nav-link active " href="#" >
                                     ثبت نام
-                                </Link>
+                                </a>
                             </li>
                             <li className="nav-item me-5 ">
-                                <Link className="nav-link" to="/user/">
+                                <a className="nav-link" href="#">
                                    منابع ما
-                                </Link>
+                                </a>
                             </li>
-                            <li className="nav-item">
-                                 <Link className="nav-link" to="/user/">
+                            <li className="nav-item me-5 ">
+                                 <a className="nav-link" href="#">
                                     میز راهنما
-                                </Link>
+                                </a>
+                            </li>
+                            <li className="nav-item me-5 mt-2 ">
+                                   <Link to="/user/Page2">
+                                       صفحه دوم
+                                   </Link>                                
                             </li>
                         </ul>
-                        <div className="d-flex  me-4">
+                        <div className="d-flex  me-5 ">
                              
-                                    <p className="text-white">09122256634</p>
+                                    <p className="text-white me-2">09122256634 : تلفن</p>
                                     <i className="bi bi-telephone text-white"></i>
                                   
                             
-                        </div>   
-                        
-                    </div>
+                        </div>  
+                                               
+                    </div> 
                 </div>
             </nav>
+           
         </div>
     );
 }
