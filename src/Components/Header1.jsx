@@ -7,12 +7,12 @@ import ieltslogo from "../assets/images/ielts logo.png"
 export default function Header1() {
   return (
     <div>
-      <div className="card bg-dark text-white">
-        <img src={logo} className="card-img " style={{height:"500px"}} alt="..." />
-        <div className="card-img-overlay d-flex flex-wrap ">
+      <div className="card bg-dark text-white position-relative">
+        <img src={logo} className="card-img blog-img1 "  alt="..." />
+        <div className="card-img-overlay  ">
           <nav className="navbar navbar-expand-lg navbar-light bg-none mt-0" style={{height:"50px"}}>
             <div className="container-fluid">
-              <a className="navbar-brand" href="#">
+              <a className="navbar-brand text-light" href="#">
               <i class="bi bi-search"></i>
               </a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,19 +21,19 @@ export default function Header1() {
               <div className="collapse navbar-collapse  " id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">وبلاگ</a>
+                    <a className="nav-link text-light" aria-current="page" href="#">وبلاگ</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">فروشگاه</a>
+                    <a className="nav-link text-light" href="#">فروشگاه</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">وبلاگ</a>
+                    <a className="nav-link  text-light" aria-current="page" href="#">وبلاگ</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">فروشگاه</a>
+                    <a className="nav-link text-light" href="#">فروشگاه</a>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       نمونه کارها
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -43,7 +43,7 @@ export default function Header1() {
                     </ul>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle text-light " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       صفحات
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -53,7 +53,7 @@ export default function Header1() {
                     </ul>
                   </li>
                   <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       صفحه اصلی
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -69,16 +69,17 @@ export default function Header1() {
             </div>
           </nav>
 
-
-
-
-
-
-
-          <img src={ieltslogo} className="card-img " style={{height:"200px",width:"150px"}} alt="..." />
-          <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p className="card-text">Last updated 3 mins ago</p>
-        </div>
+          <img src={ieltslogo} className="card-img blog-img2 position-absolute" style={{width:"150px"}} alt="..." />
+          <div className='d-flex flex-column position-absolute sticker'>
+          <div className='d-inline-flex '><span>
+            ما برای پیدا کردن نیازهای خود همکاری می کنیم 
+            </span><div className='line mt-3'> </div></div>
+          <p className='sticker1 '>ما مردم را</p>
+          <p className="card-text sticker1 ">  با یکدیگر <span className='text-primary'>متحد می کنیم</span>.</p>
+          <h4 className="card-text "> مفهوم یک شرکت مشاوره مدیریت در نیویورک است که متخصص در ساخت مدل سازی اطلاعات است.</h4>
+         
+          </div>
+        </div> 
       </div>
 
     </div>
