@@ -3,15 +3,19 @@
 
 .blog-img1 {
     background: linear-gradient(90deg,transparent 70%), no-repeat;
-    height: 450px;   
+    height: 600px; 
+    
 }
 .blog-img2 {
-    top: 20px;
+   
     height: 200px;
-    left: 80%;
+  
 }
 .sticker{
-    top: 100px;
+    top: 50px;
+    right: 50px;
+    left: 40%;
+    direction: rtl; 
 }
 .line{
     width: 30px;
