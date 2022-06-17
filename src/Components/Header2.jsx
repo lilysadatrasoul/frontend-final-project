@@ -22,7 +22,7 @@ export default function Header2() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={logo2} className="d-block w-100" alt="..." />
+            <img src={logo2} className="carousel-item-img d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block position-relative">
             <img src={ieltslogo} className="card-img sticker2-1 position-absolute " style={{ width: "150px" }} alt="..." />
               <p className='position-absolute sticker2-2'>دسته بندی: مطالب آیلتس 28/آذر/1398</p>
@@ -30,7 +30,7 @@ export default function Header2() {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={logo3} className="d-block w-100" alt="..." />
+            <img src={logo3} className="carousel-item-img d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block position-relative">
             <img src={ieltslogo} className="card-img sticker2-1 position-absolute " style={{ width: "150px" }} alt="..." />
               <p className='position-absolute sticker2-2'>دسته بندی: مطالب آیلتس 28/آذر/1398</p>

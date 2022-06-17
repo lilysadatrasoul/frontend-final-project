@@ -68,16 +68,17 @@ export default function Header1() {
               </div>
             </div>
           </nav>
+          <div className="card-text sticker1 mb-0   ">  ما مردم را با یکدیگر  <p><span className='text-primary'>.متحد می کنیم</span></p></div>
           <div className='d-flex flex-column position-absolute sticker'>
           <img src={ieltslogo} className="card-img blog-img2 " style={{width:"150px"}} alt="..." />
           
-          <div className='d-inline-flex '><div className='line mt-3'> </div><span>
+          <div className='d-inline-flex mb-0 '><div className='line mt-3'> </div><span>
             ما برای پیدا کردن نیازهای خود همکاری می کنیم 
             </span></div>
           
-          <div className="card-text sticker1 mb-0 mt-0  ">  ما مردم را با یکدیگر  <span className='text-primary'>متحد می کنیم</span>.</div>
-          <h4 className="card-text "> مفهوم یک شرکت مشاوره مدیریت در نیویورک است که متخصص در ساخت مدل سازی اطلاعات است.</h4>
-         
+          
+          <h5 className="card-text "> مفهوم یک شرکت مشاوره مدیریت در نیویورک است که متخصص در ساخت مدل سازی اطلاعات است.</h5>
+          <button type="button" className="btn btn-light rounded-pill w-25">شروع کنید</button>
           </div>
         </div> 
       </div>

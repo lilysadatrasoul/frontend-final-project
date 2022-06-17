@@ -3,7 +3,7 @@
 
 .blog-img1 {
     background: linear-gradient(90deg,transparent 70%), no-repeat;
-    height: 600px; 
+    height: 400px; 
     
 }
 .blog-img2 {
@@ -22,19 +22,23 @@
 }
 .sticker1{
     font-size:5rem;
+    right: 200px;
 
 }
 .sticker2-1{
-   bottom: 400px;
+   bottom: 200px;
    right: 70rem;
 }
 .sticker2-2{
-    bottom: 400px;
+    bottom: 200px;
     direction: rtl;
     left: 60%;
 }
 .sticker2-3{
-    bottom: 450px;
+    bottom: 250px;
     direction: rtl;
     left: 30%;
+}
+.carousel-item-img{
+    height: 400px;
 }
