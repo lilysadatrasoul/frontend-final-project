@@ -7,9 +7,7 @@
     
 }
 .blog-img2 {
-   
     height: 200px;
-  
 }
 .sticker{
     top: 50px;
@@ -25,4 +23,18 @@
 .sticker1{
     font-size:5rem;
 
+}
+.sticker2-1{
+   bottom: 400px;
+   right: 70rem;
+}
+.sticker2-2{
+    bottom: 400px;
+    direction: rtl;
+    left: 60%;
+}
+.sticker2-3{
+    bottom: 450px;
+    direction: rtl;
+    left: 30%;
 }
