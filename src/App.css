@@ -82,5 +82,14 @@ text-transform: capitalize;
     background-color: var(--main-color);
 }
 .p2-left{
-    background-color: #A9A9A9;
+    background-color:var(--gray);
+}
+.container .p2-side1{
+background-color: var(--gray);
+}
+.container .p2-side2{
+    background-color: var(--main-color);
+    }
+.container .p2-side3{
+    background-color: var(--light-color);
 }

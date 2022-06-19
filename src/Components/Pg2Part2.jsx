@@ -2,6 +2,7 @@ import React from 'react'
 import ielts1 from "../assets/images/ielts1.jpg";
 import ielts2 from "../assets/images/5.jpg";
 import ielts3 from "../assets/images/6.jpg";
+import Sidebar from '../Components/Sidebar.jsx'
 
 
 
@@ -36,7 +37,7 @@ export default function Pg2Part2() {
                                 <img className="image  m-3" src={ielts2} alt="#" />
                             </div>
                             <div>
-                                <h5>عنوان  این خبر اینجا قرار میگیرد</h5>
+                                <h4>عنوان  این خبر اینجا قرار میگیرد</h4>
                                 <p>
                                 .در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
                                  راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته 
@@ -52,7 +53,7 @@ export default function Pg2Part2() {
                                 <img className="image  m-3" src={ielts3} alt="#" />
                             </div>
                             <div>
-                                <h5>عنوان  این خبر اینجا قرار میگیرد</h5>
+                                <h4>عنوان  این خبر اینجا قرار میگیرد</h4>
                                 <p>
                                 .در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه
                                  راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته 
@@ -75,7 +76,7 @@ export default function Pg2Part2() {
 
             </div>
             <div className='col-12 col-lg-4'>
-
+            <Sidebar/>
             </div>
 
         </div>
