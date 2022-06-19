@@ -112,3 +112,7 @@ background-color: var(--gray);
     color: rgba(142, 147, 148, 0.2);
    
 }
+ .cardP6 {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
