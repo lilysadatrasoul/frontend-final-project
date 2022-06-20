@@ -126,3 +126,6 @@ background-color: var(--gray);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
+.CardP7{
+    width: 300px;
+}

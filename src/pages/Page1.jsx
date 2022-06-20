@@ -6,7 +6,7 @@ import Pg1Part3 from '../Components/Pg1Part3.jsx'
 import Pg1Part4 from '../Components/Pg1Part4.jsx'
 import Pg1Part5 from '../Components/Pg1Part5.jsx'
 import Pg1Part6 from '../Components/Pg1Part6.jsx'
-import Pg1Part7 from '../Components/Pg1Part6.jsx'
+import Pg1Part7 from '../Components/Pg1Part7.jsx'
 
 export default function Page1() {
   return (

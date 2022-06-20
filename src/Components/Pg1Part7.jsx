@@ -1,37 +1,39 @@
 import React from 'react'
 import img1 from "../assets/images/part7-1.jpg"
+import img2 from "../assets/images/part7-2.jpg"
+import img3 from "../assets/images/part7-3.jpg"
+import img4 from "../assets/images/part7-4.jpg"
+import CardP7 from "./CardP7.jsx"
 
 export default function Pg1Part7() {
   const data7 = [
     {
       id: "1",
       image: img1,
-      title: "مکالمه انگلیسی (سطح مقدماتی)",
-      teachImg: img,
-      teacher: "علی کیانپور",
-      oldPrice: "600",
-      newPrice: "400",
-      time: "12:03:15",
+      title: "آکادمی ها",
+      describe: "زن و شوهر از دانشجویان دانشگاه هپی فارغ التحصیل شد",
+      date:23  ,
     },
     {
       id: "2",
       image: img2,
-      title: "آموزش آزمون زبان",
-      teachImg: img,
-      teacher: "امید",
-      oldPrice: "600",
-      newPrice: "400",
-      time: "12:03:15",
+      title: "دولت",
+      describe: " نکات مفید برای ایجاد یک بحث با کیفیت ",
+      date:23  ,
     },
     {
       id: "3",
       image: img3,
-      title: "آیلتس آکادمیک",
-      teachImg: img,
-      teacher: "سید محمد امین ساجدی",
-      oldPrice: "600",
-      newPrice: "400",
-      time: "12:03:15",
+      title: "آکادمی ها",
+      describe: "بازتاب فصل فجر",
+      date:23 ,
+    },
+    {
+      id: "4",
+      image: img4,
+      title: "طراحی",     
+      describe: " شگفت انگیز است که دوستی هایی را که توسعه می یابند ببینند ",
+      date: 23 ,
     },
   ];
 
@@ -47,12 +49,9 @@ export default function Pg1Part7() {
             <CardP7
               key={item.id}
               image={item.image}
-              teachImg={item.teachImg}
+              describe={item.describe}
               title={item.title}
-              teacher={item.teacher}
-              oldPrice={item.oldPrice}
-              newPrice={item.newPrice}
-              time={item.time}
+              date={item.date}
             />
           ))}
         </div>
