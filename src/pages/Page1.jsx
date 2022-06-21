@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar  from '../Components/Navbar'
+import Navbar1  from '../Components/Navbar1'
 import Header1 from '../Components/Header1.jsx'
 import Pg1Part2 from '../Components/Pg1Part2.jsx'
 import Pg1Part3 from '../Components/Pg1Part3.jsx'
@@ -11,7 +11,7 @@ import Pg1Part7 from '../Components/Pg1Part7.jsx'
 export default function Page1() {
   return (
     <div>
-         <Navbar/>
+         <Navbar1/>
          <Header1/>
          <Pg1Part2/>
          <Pg1Part3/>

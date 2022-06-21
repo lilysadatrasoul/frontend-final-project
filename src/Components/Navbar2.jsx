@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 
-export default function Navbar() {
+export default function Navbar2() {
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -43,8 +43,8 @@ export default function Navbar() {
                                 </a>
                             </li>
                             <li className="nav-item me-5 mt-2 ">
-                                   <Link to="/user/Page2">
-                                       صفحه دوم
+                                   <Link to="/">
+                                       صفحه اول
                                    </Link>                                
                             </li>
                         </ul>
