@@ -39,7 +39,7 @@ export default function Pg1Part7() {
 
   return (
     <div dir='rtl'>
-      <div className="body cardP4 pb-5">
+      <div className=" cardP4 pb-5">
         <div className="container text-light pt-5 pb-2 ">
           <h1>آخرین دوره های آیلتس ایز</h1>
           <h3>چرا باید آیلتس ایز را انتخاب کنم؟</h3>

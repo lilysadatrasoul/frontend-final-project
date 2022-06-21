@@ -6,6 +6,7 @@
     --gray:#A9A9A9;
     --white:rgb(241, 246, 247);
     --light-color:#666;
+    --black:#0b0b0bcf;
     --dark-color: #8B008B;
     --bright-color:#d4f1f1cf;
     --border:.2rem solid var(--black);
@@ -128,4 +129,30 @@ background-color: var(--gray);
 }
 .CardP7{
     width: 300px;
+}
+.footer{
+    background-color: var(--black);
+}
+.btn-email{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(122, 245, 113);
+}
+.email{
+    width: 150px;
+    height: 40px;
+}
+
+
+.final-box{
+    background-color: var(--light-color);
+}
+.link-footer{
+    text-decoration: none;
+    padding: 10px;
+    color: var(--white);
+}
+.linksocial{
+    padding: 15px;
+    color: var(--white);
 }

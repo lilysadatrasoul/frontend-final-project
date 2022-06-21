@@ -4,6 +4,7 @@ import Header2 from '../Components/Header2.jsx'
 import Pg2Part2 from '../Components/Pg2Part2.jsx'
 import Pg1Part4 from '../Components/Pg1Part4.jsx'
 import Pg1Part6 from '../Components/Pg1Part6.jsx'
+import  Footer from '../Components/Footer.jsx'
 
 
 
@@ -15,6 +16,7 @@ export default function Page2() {
          <Pg2Part2/>
          <Pg1Part4/>
          <Pg1Part6/>
+         <Footer/>
          
     </div>
   )

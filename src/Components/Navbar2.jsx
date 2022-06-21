@@ -44,7 +44,7 @@ export default function Navbar2() {
                             </li>
                             <li className="nav-item me-5 mt-2 ">
                                    <Link to="/">
-                                       صفحه اول
+                                       صفحه قبل
                                    </Link>                                
                             </li>
                         </ul>
